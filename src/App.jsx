@@ -31,6 +31,7 @@ function App() {
         : friend
     );
     setFriends(updatedFriend);
+    setSelectFriend(null);
   };
   return (
     <div className="app">
